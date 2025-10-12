@@ -1,0 +1,61 @@
+2025-09-27 16:26:48,766 14304 INFO ? odoo: Odoo version 18.0-20250927 
+2025-09-27 16:26:48,766 14304 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2025-09-27 16:26:48,766 14304 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\18.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2025-09-27 16:26:48,768 14304 INFO ? odoo: database: openpg@localhost:5432 
+2025-09-27 16:26:51,774 14304 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2025-09-27 16:26:51,839 14304 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-09-27 16:26:53,202 14304 INFO ? odoo.service.server: Initiating shutdown 
+2025-09-27 16:26:53,203 14304 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-09-27 16:27:16,780 9636 INFO ? odoo: Odoo version 18.0-20250927 
+2025-09-27 16:27:16,781 9636 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2025-09-27 16:27:16,781 9636 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\18.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2025-09-27 16:27:16,781 9636 INFO ? odoo: database: openpg@localhost:5432 
+2025-09-27 16:27:17,046 9636 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2025-09-27 16:27:17,087 9636 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-09-27 16:27:17,527 9636 INFO ? odoo.service.server: HTTP service (werkzeug) running on Shreya-pc1:8069 
+2025-09-27 16:27:18,448 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:18,541 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:32,324 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:32,338 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:32] "GET / HTTP/1.1" 303 - 0 0.000 0.103
+2025-09-27 16:27:32,589 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:32,677 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:32,677 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:32] "GET /odoo HTTP/1.1" 303 - 0 0.000 0.188
+2025-09-27 16:27:32,769 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:35,215 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:37,338 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:37] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 4.655
+2025-09-27 16:27:37,848 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:37,849 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:37] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 0.089
+2025-09-27 16:27:38,049 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,050 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.287
+2025-09-27 16:27:38,271 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,272 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 0 0.000 0.507
+2025-09-27 16:27:38,348 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,349 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 0.583
+2025-09-27 16:27:38,421 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,422 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.656
+2025-09-27 16:27:38,510 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,512 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.745
+2025-09-27 16:27:38,593 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,594 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.419
+2025-09-27 16:27:38,677 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,678 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 0 0.000 0.312
+2025-09-27 16:27:38,775 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,776 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 0 0.000 0.190
+2025-09-27 16:27:38,849 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,850 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 0 0.000 0.188
+2025-09-27 16:27:38,926 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:38,927 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:38] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 0 0.000 0.181
+2025-09-27 16:27:39,184 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:39,186 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:39] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 0 0.000 0.114
+2025-09-27 16:27:39,268 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:39,270 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:39] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.197
+2025-09-27 16:27:39,350 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:39,351 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:39] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.277
+2025-09-27 16:27:39,423 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:39,425 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:39] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 0 0.000 0.325
+2025-09-27 16:27:39,682 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:39,683 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:39] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 0 0.000 0.095
+2025-09-27 16:27:40,337 9636 INFO ? odoo.sql_db: Connection to the database failed 
+2025-09-27 16:27:40,338 9636 INFO ? werkzeug: 127.0.0.1 - - [27/Sep/2025 16:27:40] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.098
+2025-09-27 16:41:08,179 9636 INFO ? odoo.service.server: Initiating shutdown 
+2025-09-27 16:41:08,183 9636 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
