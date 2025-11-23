@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+        <record id="task_delete_mail_template" model="mail.template">
+            <field name="name">Task Deleted Notification</field>
+            <field name="model_id" ref="project.model_project_task"/>
+            <field name="subject">Task Deleted: ${object.name}</field>
+            <field name="email_from">${(user.email_formatted or 'noreply@example.com')}</field>
+            <field name="body_html">
+                <![CDATA[
+                <p>Hello,</p>
+                <p>The following task has been <b>${object.name}</b> has been deleted:</p>
+                <p>
+                    <b>Project:</b> ${object.project_id.name}<br/>
+                    <b>Assigned Users:</b>
+                    % for u in object.user_ids:
+                        ${u.name}
+                    % endfor
+                    <br/>
+                    <b>Deleted By:</b> ${user.name}
+                </p>
+                <p>Thank you.</p>
+                ]]>
+            </field>
+        </record>
+    </data>
+</odoo>
+
