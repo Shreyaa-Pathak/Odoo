@@ -99,7 +99,7 @@ class Task(models.Model):
 
 
     # add department in filter
-    department_id = fields.Many2One(
+    department_id = fields.Many2one(
         "hr.department",
         related="project_id.x_department_id",
         store=False
