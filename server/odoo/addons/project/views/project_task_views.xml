@@ -35,7 +35,6 @@
                     <group expand="0" string="Group By">
                         <filter string="Stage" name="stage" context="{'group_by': 'stage_id'}"/>
                         <filter string="Milestone" name="milestone" context="{'group_by': 'milestone_id'}" groups="project.group_project_milestone"/>
-                        <filter string="Department" name="group_by_department" context="{'group_by': 'department_id'}"/>
                         <filter string="Tags" name="tags" context="{'group_by': 'tag_ids'}"/>
                         <filter string="Customer" name="customer" context="{'group_by': 'partner_id'}"/>
                         <filter string="Company" name="company_id" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>

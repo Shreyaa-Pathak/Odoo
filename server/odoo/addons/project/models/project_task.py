@@ -98,15 +98,6 @@ class Task(models.Model):
     _track_duration_field = 'stage_id'
 
 
-    # add department in filter
-    department_id = fields.Many2One(
-        "hr.department",
-        related="project_id.x_department_id",
-        store=False
-    )
-    def _get_versioned_fields(self):
-        return [Task.description.name]
-
     @api.model
     def _get_default_partner_id(self, project=None, parent=None):
         if parent and parent.partner_id:
