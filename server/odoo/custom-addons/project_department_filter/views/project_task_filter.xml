@@ -1,0 +1,21 @@
+<odoo>
+    <record id="project_task_filter_inherit_department" model="ir.ui.view">
+        <field name="name">project.task.search.department</field>
+        <field name="model">project.task</field>
+
+        <!-- CORRECT VIEW -->
+        <field name="inherit_id" ref="project.view_task_search_form"/>
+
+        <field name="arch" type="xml">
+
+            <!-- Insert after an existing filter -->
+            <xpath expr="//filter[@name='stage']" position="after">
+                <filter
+                    string="Department"
+                    name="group_by_department_id"
+                    context="{'group_by': 'department_id'}"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
